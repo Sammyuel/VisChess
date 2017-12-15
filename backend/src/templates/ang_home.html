@@ -1,0 +1,35 @@
+{% load static %}
+<!doctype html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,Chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+  <title>HELLO</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+      <!-- index.html -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link href="{% static 'ang/styles.bundle.css' %}" rel="stylesheet"/>
+<link href = "{% static 'ang/styles.css' %}" rel="stylesheet"/>
+<link href = "{% static 'ang/assets/base.css' %}" rel = "stylesheet"/> 
+<link href = "{% static 'ang/assets/desktop.css' %}" rel = "stylesheet"/>
+<link href = "{% static 'ang/assets/theme.css' %}" rel = "stylesheet">
+</head>
+
+<body>
+  <app style = "body { background-color: gray; }">Loading...</app>
+    <script type="text/javascript" src="{% static 'ang/inline.bundle.js' %}"></script>
+    <script type="text/javascript" src="{% static 'ang/polyfills.bundle.js' %}"></script>
+    <script type="text/javascript" src="{% static 'ang/vendor.bundle.js' %}"></script>
+    <script type="text/javascript" src="{% static 'ang/main.bundle.js' %}"></script>
+    <script type="text/javascript" src = "{% static 'ang/styles.bundle.js' %}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.3.0/core.min.js"></script>
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=default,console.*,Intl.~locale.en&gated=1"></script>
+</body>
+</html>
+ 

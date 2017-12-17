@@ -218,6 +218,7 @@ export class BoardEditorComponent implements AfterViewInit {
 
         this.ground.toggleOrientation();
     }
+    
 
     findFirstEmptySquare(k) {
         return !this.ground.data.pieces[k];

@@ -27,6 +27,13 @@ class GameManager(models.Manager):
 
 class Game(models.Model):
     pgn        = models.TextField()
+    white = models.TextField()
+    black = models.TextField()
+    event = models.TextField()
+    whiteelo = models.TextField()
+    blackelo = models.TextField()
+    date = models.TextField()
+    result = models.TextField()
 
     objects = GameManager()
 

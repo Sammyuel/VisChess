@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "@angular/animations": "^5.1.0"
+    "@angular/animations": "^5.1.0",
+    "heroku": "^0.2.0",
+    "heroku-cli": "^6.14.42"
   }
 }

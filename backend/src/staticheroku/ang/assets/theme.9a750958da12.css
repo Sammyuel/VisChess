@@ -1,0 +1,215 @@
+/*
+ * Board
+ */
+.blue .cg-board {
+  background-image: url("images/board/blue2.bffddf35b91d.jpg");
+}
+.wood .cg-board {
+  background-image: url("images/board/wood2.c171ff8338a9.jpg");
+}
+.marble .cg-board {
+  background-image: url("images/board/marble.cbc7735d5a4f.jpg");
+}
+.light .cg-board-wrap {
+  position: relative;
+  background-image: url("images/board/3d/Light-Wood.697d127205fe.png");
+  background-size: cover;
+}
+.chessground.small.light-wood-3d .cg-board-wrap {
+  width: calc(1400px / 4.6666);
+  height: calc(1310px / 4.6666);
+}
+.chessground.large.light-wood-3d .cg-board-wrap {
+  width: calc(1400px / 1);
+  height: calc(1310px / 1);
+}
+.light-wood-3d .cg-board {
+  position: absolute;
+  left: 0;
+  top: 0.6168702%;
+  width: 100%;
+  height: 97.0229%;
+}
+/*
+whole: 1400x1310
+useful: 1400x1271,
+top: 8, bottom: 31
+
+
+/*
+ * Pieces
+ */
+.pirouetti piece {
+  bottom: 0;
+  left: -15%;
+  width: 130%;
+  height: 130%;
+}
+.pirouetti piece.pawn.white {
+  background-image: url("images/pieces/pirouetti/wP.7dca65b9f2f9.svg");
+}
+.pirouetti piece.bishop.white {
+  background-image: url("images/pieces/pirouetti/wB.5a6408800d8e.svg");
+}
+.pirouetti piece.knight.white {
+  background-image: url("images/pieces/pirouetti/wN.c1a1fb56972e.svg");
+}
+.pirouetti piece.rook.white {
+  background-image: url("images/pieces/pirouetti/wR.2cddb65c6395.svg");
+}
+.pirouetti piece.queen.white {
+  background-image: url("images/pieces/pirouetti/wQ.faa909f0a58a.svg");
+}
+.pirouetti piece.king.white {
+  background-image: url("images/pieces/pirouetti/wK.4d6fd25318e0.svg");
+}
+.pirouetti piece.pawn.black {
+  background-image: url("images/pieces/pirouetti/bP.7e7d8122f35e.svg");
+}
+.pirouetti piece.bishop.black {
+  background-image: url("images/pieces/pirouetti/bB.e35c9e38b506.svg");
+}
+.pirouetti piece.knight.black {
+  background-image: url("images/pieces/pirouetti/bN.c0946cabe2db.svg");
+}
+.pirouetti piece.rook.black {
+  background-image: url("images/pieces/pirouetti/bR.b731cc5ab045.svg");
+}
+.pirouetti piece.queen.black {
+  background-image: url("images/pieces/pirouetti/bQ.f4490314d01e.svg");
+}
+.pirouetti piece.king.black {
+  background-image: url("images/pieces/pirouetti/bK.6557752cd25d.svg");
+}
+.cburnett piece.pawn.white {
+  background-image: url("images/pieces/cburnett/wP.b89141ad48a2.svg");
+}
+.cburnett piece.bishop.white {
+  background-image: url("images/pieces/cburnett/wB.c92c4ce27608.svg");
+}
+.cburnett piece.knight.white {
+  background-image: url("images/pieces/cburnett/wN.d0808525d890.svg");
+}
+.cburnett piece.rook.white {
+  background-image: url("images/pieces/cburnett/wR.c6bb3ac983db.svg");
+}
+.cburnett piece.queen.white {
+  background-image: url("images/pieces/cburnett/wQ.310d0c7f9018.svg");
+}
+.cburnett piece.king.white {
+  background-image: url("images/pieces/cburnett/wK.c44ab9461d22.svg");
+}
+.cburnett piece.pawn.black {
+  background-image: url("images/pieces/cburnett/bP.43749bd7c57b.svg");
+}
+.cburnett piece.bishop.black {
+  background-image: url("images/pieces/cburnett/bB.1383bc8bef46.svg");
+}
+.cburnett piece.knight.black {
+  background-image: url("images/pieces/cburnett/bN.4412a0e919fd.svg");
+}
+.cburnett piece.rook.black {
+  background-image: url("images/pieces/cburnett/bR.072d890f9ab7.svg");
+}
+.cburnett piece.queen.black {
+  background-image: url("images/pieces/cburnett/bQ.933f4ba2e905.svg");
+}
+.cburnett piece.king.black {
+  background-image: url("images/pieces/cburnett/bK.47b15878be9e.svg");
+}
+.merida piece.pawn.white {
+  background-image: url("images/pieces/merida/wP.4ff1ce7c9541.svg");
+}
+.merida piece.bishop.white {
+  background-image: url("images/pieces/merida/wB.e0eb761a1338.svg");
+}
+.merida piece.knight.white {
+  background-image: url("images/pieces/merida/wN.f9c6e522d506.svg");
+}
+.merida piece.rook.white {
+  background-image: url("images/pieces/merida/wR.573501233a40.svg");
+}
+.merida piece.queen.white {
+  background-image: url("images/pieces/merida/wQ.4e4432a6b0df.svg");
+}
+.merida piece.king.white {
+  background-image: url("images/pieces/merida/wK.bb430c603fae.svg");
+}
+.merida piece.pawn.black {
+  background-image: url("images/pieces/merida/bP.344e161b311c.svg");
+}
+.merida piece.bishop.black {
+  background-image: url("images/pieces/merida/bB.8a6bd56a8d71.svg");
+}
+.merida piece.knight.black {
+  background-image: url("images/pieces/merida/bN.0026f1466817.svg");
+}
+.merida piece.rook.black {
+  background-image: url("images/pieces/merida/bR.027332a07c4f.svg");
+}
+.merida piece.queen.black {
+  background-image: url("images/pieces/merida/bQ.aed026d0021b.svg");
+}
+.merida piece.king.black {
+  background-image: url("images/pieces/merida/bK.47af274b8a88.svg");
+}
+.staunton piece.pawn.white {
+  background-image: url("images/pieces/staunton/basic/White-Pawn.6c520e9daac9.png");
+}
+.staunton piece.bishop.white {
+  background-image: url("images/pieces/staunton/basic/White-Bishop.fbb218f870c6.png");
+}
+.staunton .cg-board.orientation-black div.bishop.white {
+  background-image: url("images/pieces/staunton/basic/White-Bishop-Flipped.f66ce5f71b9a.png");
+}
+.staunton piece.knight.white,
+#top div.piece_demo.staunton {
+  background-image: url("images/pieces/staunton/basic/White-Knight.a786aa1fa5b0.png");
+}
+.staunton .cg-board.orientation-black div.knight.white {
+  background-image: url("images/pieces/staunton/basic/White-Knight-Flipped.1a85578a527c.png");
+}
+.staunton piece.rook.white {
+  background-image: url("images/pieces/staunton/basic/White-Rook.010f0a8fd9f3.png");
+}
+.staunton piece.queen.white {
+  background-image: url("images/pieces/staunton/basic/White-Queen.26d99a092c17.png");
+}
+.staunton piece.king.white {
+  background-image: url("images/pieces/staunton/basic/White-King.1845a2b82b81.png");
+}
+.staunton piece.pawn.black {
+  background-image: url("images/pieces/staunton/basic/Black-Pawn.81e5a38a8087.png");
+}
+.staunton piece.bishop.black {
+  background-image: url("images/pieces/staunton/basic/Black-Bishop.cc912652114a.png");
+}
+.staunton .cg-board.orientation-white div.bishop.black {
+  background-image: url("images/pieces/staunton/basic/Black-Bishop-Flipped.b96efaf3d860.png");
+}
+.staunton piece.knight.black {
+  background-image: url("images/pieces/staunton/basic/Black-Knight.0c897c75b5e1.png");
+}
+.staunton .cg-board.orientation-white div.knight.black {
+  background-image: url("images/pieces/staunton/basic/Black-Knight-Flipped.1834213b8cb9.png");
+}
+.staunton piece.rook.black {
+  background-image: url("images/pieces/staunton/basic/Black-Rook.759c4f530a55.png");
+}
+.staunton piece.queen.black {
+  background-image: url("images/pieces/staunton/basic/Black-Queen.e157cdb08869.png");
+}
+.staunton piece.king.black {
+  background-image: url("images/pieces/staunton/basic/Black-King.591e98647174.png");
+}
+.staunton piece {
+  /* original size:
+     width: 140.625%;
+     height: 179.6875%; */
+  /* size on 3D board, with height/width = 90.78571% */
+  width: 140.625%;
+  height: 197.92486231313927%;
+  left: -25%;
+  top: -77%;
+}
+

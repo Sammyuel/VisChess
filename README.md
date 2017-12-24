@@ -10,7 +10,7 @@ professional chess games in the database to practice from.
 
 ## Getting Started
 Clone or download the repository
-Install Angular CLI version 1.49 and Django version 1.11
+Install Django version 1.11
 
 
 ### Deploying

@@ -13,7 +13,7 @@ Clone or download the repository
 Install Django version 1.11
 
 
-### Deploying
+### Running Locally
 
 ```
 cd backend
